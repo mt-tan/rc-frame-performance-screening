@@ -1,0 +1,75 @@
+{
+ "source": "app RealMLP (BASE+A2, s42) on the external test set, 5826 rows",
+ "low_conf_rule": "bin accuracy < 0.9",
+ "low_conf_acc": 0.9,
+ "confidence_bins": [
+  {
+   "lo": 0.0,
+   "hi": 0.5,
+   "n": 115,
+   "acc": 0.5391304347826087,
+   "low": true
+  },
+  {
+   "lo": 0.5,
+   "hi": 0.6,
+   "n": 216,
+   "acc": 0.625,
+   "low": true
+  },
+  {
+   "lo": 0.6,
+   "hi": 0.7,
+   "n": 229,
+   "acc": 0.611353711790393,
+   "low": true
+  },
+  {
+   "lo": 0.7,
+   "hi": 0.8,
+   "n": 318,
+   "acc": 0.8207547169811321,
+   "low": true
+  },
+  {
+   "lo": 0.8,
+   "hi": 0.9,
+   "n": 631,
+   "acc": 0.9429477020602218,
+   "low": false
+  },
+  {
+   "lo": 0.9,
+   "hi": 0.95,
+   "n": 3929,
+   "acc": 0.998727411555103,
+   "low": false
+  },
+  {
+   "lo": 0.95,
+   "hi": 1.0,
+   "n": 388,
+   "acc": 1.0,
+   "low": false
+  }
+ ],
+ "p_worse_given_pred": {
+  "IO": 0.0484304932735426,
+  "LS": 0.03679435483870968,
+  "CP": 0.10204081632653061,
+  "C": 0.0
+ },
+ "n_pred": {
+  "IO": 1115,
+  "LS": 1984,
+  "CP": 343,
+  "C": 2384
+ },
+ "metrics": {
+  "acc": 0.9449021627188465,
+  "f1_macro": 0.9049557498972107,
+  "optimistic": 0.027806385169927908,
+  "conservative": 0.02729145211122554
+ },
+ "agreement_with_stored_s42": 1.0
+}

@@ -1,0 +1,198 @@
+{
+ "site": {
+  "values": [
+   "L1",
+   "L2",
+   "L3",
+   "L4",
+   "L5",
+   "L6",
+   "L7",
+   "L8"
+  ]
+ },
+ "soil_class": {
+  "values": [
+   "ZA",
+   "ZB",
+   "ZC",
+   "ZD",
+   "ZE"
+  ]
+ },
+ "N_story": {
+  "values": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ "h1": {
+  "min": 2.71,
+  "max": 4.4
+ },
+ "htyp": {
+  "min": 2.7,
+  "max": 3.2
+ },
+ "col_B": {
+  "min": 25.0,
+  "max": 99.5
+ },
+ "col_H": {
+  "min": 25.0,
+  "max": 100.0
+ },
+ "beam_b": {
+  "min": 25.0,
+  "max": 40.0
+ },
+ "beam_h": {
+  "min": 40.0,
+  "max": 80.0
+ },
+ "cover": {
+  "min": 2.0,
+  "max": 5.0
+ },
+ "fc_MPa": {
+  "min": 15.0,
+  "max": 35.0
+ },
+ "steel_grade": {
+  "values": [
+   "S220",
+   "S420"
+  ]
+ },
+ "phi_long_col_mm": {
+  "values": [
+   14.0,
+   16.0,
+   18.0,
+   20.0,
+   22.0
+  ]
+ },
+ "col_n_long_x": {
+  "min": 2.0,
+  "max": 23.0
+ },
+ "col_n_long_y": {
+  "min": 2.0,
+  "max": 24.0
+ },
+ "phi_long_beam_mm": {
+  "values": [
+   12.0,
+   14.0,
+   16.0,
+   18.0,
+   20.0
+  ]
+ },
+ "beam_n_long_top": {
+  "min": 2.0,
+  "max": 9.0
+ },
+ "beam_n_long_bot": {
+  "min": 2.0,
+  "max": 9.0
+ },
+ "kappa_col": {
+  "min": 0.6,
+  "max": 1.0
+ },
+ "kappa_beam": {
+  "min": 0.6,
+  "max": 1.0
+ },
+ "col_phi_etr_mm": {
+  "values": [
+   8.0,
+   10.0
+  ]
+ },
+ "col_s_etr_cm": {
+  "min": 8.0,
+  "max": 25.0
+ },
+ "col_n_etr_y": {
+  "values": [
+   2,
+   3,
+   4
+  ]
+ },
+ "col_n_etr_x": {
+  "values": [
+   2,
+   3,
+   4
+  ]
+ },
+ "beam_phi_etr_mm": {
+  "values": [
+   8.0,
+   10.0
+  ]
+ },
+ "beam_s_etr_cm": {
+  "min": 8.0,
+  "max": 25.0
+ },
+ "hook_deg": {
+  "values": [
+   "135",
+   "90"
+  ]
+ },
+ "G": {
+  "min": 10.0,
+  "max": 40.0
+ },
+ "Q": {
+  "min": 5.0,
+  "max": 20.0
+ },
+ "N_bay": {
+  "values": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ "bay_length_min": {
+  "min": 3.0,
+  "max": 8.0
+ },
+ "bay_length_max": {
+  "min": 3.0,
+  "max": 8.0
+ },
+ "col_aspect": {
+  "min": 1.0,
+  "max": 2.5
+ },
+ "rho_col_actual": {
+  "min": 0.006050000000000001,
+  "max": 0.04
+ },
+ "rho_beam_top_actual": {
+  "min": 0.0021100000000000003,
+  "max": 0.013900000000000001
+ },
+ "rho_beam_bot_actual": {
+  "min": 0.00199,
+  "max": 0.0137
+ },
+ "axial_ratio_est": {
+  "min": 0.0037300000000000002,
+  "max": 0.6
+ },
+ "_source": "training manifests w1+w2+w3, 23363 frames used in training; ranges rounded outward to 3 significant digits"
+}

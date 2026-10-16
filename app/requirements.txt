@@ -1,0 +1,15 @@
+# Tested in .venv312 (Python 3.12.15). openseespy is needed only because modules/materials.py and
+# modules/target_displacement.py import it; no structural analysis is run by the app.
+customtkinter==6.0.0
+pytabkit==1.7.3
+torch==2.14.1
+interpret-core==0.7.8
+numpy==2.5.3
+pandas==3.0.6
+scikit-learn==1.9.1
+matplotlib==3.11.2
+pillow==12.3.0
+openpyxl==3.1.5
+pyarrow==25.0.1
+openseespy==3.8.0.0
+pytest==9.1.1

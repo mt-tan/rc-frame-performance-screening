@@ -1,0 +1,47 @@
+{
+ "name": "ext_000006",
+ "label": "ext_000006 (4-story, L8/ZB, S220, 135°)",
+ "reference_pushover": {
+  "DD1": "LS",
+  "DD2": "LS"
+ },
+ "values": {
+  "site": "L8",
+  "soil_class": "ZB",
+  "N_story": 4,
+  "h1": 3.2190043913823465,
+  "htyp": 2.760764999084448,
+  "bay_lengths": [
+   6.587768,
+   5.593285,
+   5.694302,
+   5.497636,
+   7.67375,
+   6.9388
+  ],
+  "col_B": 33.44688071373784,
+  "col_H": 44.12665022868533,
+  "beam_b": 29.12280369846092,
+  "beam_h": 66.6323399818986,
+  "cover": 3.174170174682989,
+  "fc_MPa": 24.994986799592166,
+  "steel_grade": "S220",
+  "phi_long_col_mm": 18.0,
+  "col_n_long_x": 5,
+  "col_n_long_y": 7,
+  "phi_long_beam_mm": 20.0,
+  "beam_n_long_top": 4,
+  "beam_n_long_bot": 3,
+  "kappa_col": 0.9256061788005716,
+  "kappa_beam": 1.0,
+  "col_phi_etr_mm": 10.0,
+  "col_s_etr_cm": 10.999999999999998,
+  "col_n_etr_x": 3,
+  "col_n_etr_y": 3,
+  "beam_phi_etr_mm": 8.0,
+  "beam_s_etr_cm": 23.999999999999993,
+  "hook_deg": "135",
+  "G": 38.83717592386769,
+  "Q": 9.841663306539473
+ }
+}

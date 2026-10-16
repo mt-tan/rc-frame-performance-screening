@@ -1,0 +1,45 @@
+{
+ "name": "ext_000001",
+ "label": "ext_000001 (3-story, L5/ZB, S420, 135°)",
+ "reference_pushover": {
+  "DD1": "IO",
+  "DD2": "IO"
+ },
+ "values": {
+  "site": "L5",
+  "soil_class": "ZB",
+  "N_story": 3,
+  "h1": 3.8088390080930923,
+  "htyp": 2.760473349378028,
+  "bay_lengths": [
+   3.824737,
+   3.0,
+   3.096347,
+   3.630168
+  ],
+  "col_B": 67.87708650439833,
+  "col_H": 82.56230394101176,
+  "beam_b": 35.00957864325257,
+  "beam_h": 61.61925140732909,
+  "cover": 2.0633242198035457,
+  "fc_MPa": 23.453774228166473,
+  "steel_grade": "S420",
+  "phi_long_col_mm": 16.0,
+  "col_n_long_x": 9,
+  "col_n_long_y": 11,
+  "phi_long_beam_mm": 18.0,
+  "beam_n_long_top": 5,
+  "beam_n_long_bot": 4,
+  "kappa_col": 1.0,
+  "kappa_beam": 0.9102810826959271,
+  "col_phi_etr_mm": 8.0,
+  "col_s_etr_cm": 11.999999999999998,
+  "col_n_etr_x": 4,
+  "col_n_etr_y": 4,
+  "beam_phi_etr_mm": 8.0,
+  "beam_s_etr_cm": 10.999999999999998,
+  "hook_deg": "135",
+  "G": 29.56699474477543,
+  "Q": 10.362005950431694
+ }
+}

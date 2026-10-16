@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.venv*/
+app/logs/
+# 261 MB EBM model is distributed as a GitHub Release asset, not in the repository
+app/assets/models/ebm_BASE+A2_s42.pkl
